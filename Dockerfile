@@ -13,5 +13,5 @@ RUN a2enmod rewrite
 # Set working directory
 WORKDIR /var/www/html/
 
-# Expose port 80
-EXPOSE 80
+# Expose port 3306
+EXPOSE 3306
